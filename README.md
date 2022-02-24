@@ -14,4 +14,4 @@ on hover: highlighted with blue colour
 on click: show a popup with hint contained in it, as shown as the figure below
 
 
-Written in Typescript
+Written in Typescript, produced with React
