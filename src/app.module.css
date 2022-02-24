@@ -1,0 +1,61 @@
+.generic {
+background-color: rgb(250, 253, 255);
+border: 1px solid transparent;
+width: 200px;
+padding: 15px 15px 15px 8%;
+height: 5vh;
+font-family: Arial, Helvetica, sans-serif;
+font-weight:300;
+align-items: center;
+position: relative;
+}
+
+.generic.blueHover:hover {
+  border: 1px solid rgb(43, 187, 187);
+}
+
+.selected {
+  border: 1px solid rgb(43, 187, 187);
+}
+
+.edit:hover, .editHint:hover, .editHintIcon:hover, .editIcon:hover, .hint:hover , .hintIcon:hover {
+border: 1px solid rgb(43, 187, 187);
+}
+
+.icon {
+  width: 1vw;
+  height: 1vw;
+  padding: 0px 10px 0px 0px;
+  position: absolute;
+  left: 6%;
+}
+
+.Input {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  font-family: inherit;
+  font-size: inherit;
+  width: 100%;
+}
+
+.hint:hover~#hint {
+  display: block;
+}
+
+.hints {
+ display: none;
+}
+
+.active {
+   border: 1px solid rgb(43, 187, 187);
+   background-color: rgb(250, 253, 255);
+   height: 5vh;
+   padding: 15px 15px 15px 8%;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: 300;
+}
+
+.placeholders {
+  display: none;
+}
